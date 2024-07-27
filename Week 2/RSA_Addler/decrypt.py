@@ -1,6 +1,7 @@
 import binascii as bin
 import base64
 
+#this string was obtained by passing the string given in the warmup.txt file through a Brainfuck interpreter
 string="JJFEKVCFKZFVES2KJJLE2UZSJ5EUUS2VGJKVEU2KLJDUKVKUINDESNKMIVDVMQ2LJJNEIVKLKZFVKSKOJRKVKTSLJVFVMS2WJVITETSKIZHEKS2WJNGEWRK2IZBVGU2KI5FEWVSDKZJUWSZVIZLEGV2TI5EUMSSVKVHESPI="
 
 d1=base64.b32decode(string)
